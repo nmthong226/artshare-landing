@@ -122,21 +122,26 @@ const LandingPage = () => {
           </p>
         </div>
         <div className="flex items-center space-x-4 md:space-x-8 font-semibold">
-          <div className="max-sm:hidden text-mountain-950 hover:text-indigo-600 hover:cursor-pointer">
-            Features
-          </div>
-          <div className="max-sm:hidden text-mountain-950 hover:text-indigo-600 hover:cursor-pointer">
-            Testimonials
-          </div>
-          <div className="max-sm:hidden text-mountain-950 hover:text-indigo-600 hover:cursor-pointer">
-            Pricing
-          </div>
-          <Link
-            to="/login"
+          <a
+            href="https://artshare-docs.vercel.app/"
+            target="_self"
+            className="max-sm:hidden text-mountain-950 hover:text-indigo-600 hover:cursor-pointer"
+          >
+            <span>Documentation</span>
+          </a>
+          <a
+            href="https://www.youtube.com/@artshareofficial"
+            className="max-sm:hidden text-mountain-950 hover:text-indigo-600 hover:cursor-pointer"
+          >
+            <span>Youtube</span>
+          </a>
+          <a
+            href="https://artsharezone-black.vercel.app/explore"
+            target="_self"
             className="bg-gradient-to-r from-blue-800 via-indigo-800 to-purple-800 hover:brightness-110 p-1 md:p-2 px-4 md:px-6 rounded-full text-mountain-50 text-sm md:text-base hover:cursor-pointer"
           >
             Get Started
-          </Link>
+          </a>
         </div>
       </div>
       <div className="sm:hidden -bottom-1 z-50 fixed flex justify-center items-center bg-white/70 py-5 w-full h-20">
